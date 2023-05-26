@@ -1,0 +1,529 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/font/stylesheet.css);
+
+
+a:hover {
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.content {
+    margin: 0 auto 160px;
+    width: 77.2%;
+    display: flex;
+}
+
+.header {
+    padding: 20px 0 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(1, 12, 19, 1);
+    max-height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.header__container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 77.2%;
+}
+
+.header__logo {}
+
+.header__line {
+    margin: 0 20px 0 20px;
+    border-left: 2px solid rgba(255, 255, 255, 1);
+    height: 68px;
+}
+
+.header__title {
+    width: 324px;
+    height: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    align-items: center;
+    letter-spacing: 0.05em;
+}
+
+.brands {
+    width: 33.7%;
+    max-width: 500px;
+    margin-right: 60px;
+}
+
+.brands__container {
+    max-width: 400px;
+    width: 80.4%;
+    border-bottom: 2px solid #9AA7AD;
+    padding-bottom: 30px;
+}
+
+.brands__title {
+    margin: 30px 0 10px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+}
+
+.brand {
+    padding: 6px 19px;
+    margin: 10px 10px 0 0;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    border: 2px solid #010C13;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.brand:hover {
+    background-color: rgba(169, 169, 169, 1);
+}
+
+.brand:last-child {
+    margin-right: 0;
+}
+
+.goods {
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.goods__title {
+    margin: 0 auto 60px;
+    width: 77.2%;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.cards__container {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column-gap: 42px;
+    max-width: 920px;
+    width: 68%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .95);
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.card__title {
+    margin: 20px 0 12px;
+    width: 100%;
+    font-family: 'Tactic Sans';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #010C13;
+    overflow: hidden;
+}
+
+.card__image {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.card__spec {
+    margin: 0 0 28px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140%;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #9AA7AD;
+}
+
+.card__button {
+    height: 80px;
+    width: 100%;
+    color: #FFFFFF;
+    background: rgba(202, 1, 0, 1);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.car {
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.information {
+    width: 77.2%;
+    margin: 0 auto;
+}
+
+.car__title {
+    margin: 0 0 20px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #010C13;
+}
+
+.car__vin {
+    margin: 0 0 80px;
+    ;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9AA7AD;
+}
+
+.car__container {
+    display: flex;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    max-width: 626px;
+    min-width: 42.2%;
+}
+
+.car__price {
+    padding-left: 40px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    height: 82px;
+    background-color: #F4F7F8;
+    border-radius: 12px;
+    color: #CA0100;
+}
+
+.car__price_ru {
+    margin-left: 8px;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #CA0100;
+    font-stretch: 151;
+    font-variation-settings: 'GRAD' 150, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+}
+
+.car__virgs {
+    padding-left: 40px;
+    margin: 20px 0 60px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    /* width: 100%; */
+    height: 82px;
+    background-color: #F4F7F8;
+    border-radius: 12px;
+    color: #010C13;
+}
+
+.car__logo-safety {
+    margin-right: 20px;
+}
+
+.specs {}
+
+.car__specs-title {
+    margin: 0 0 30px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #010C13;
+}
+
+.specs__list {
+    padding: 60px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: #F4F7F8;
+    border-radius: 16px;
+}
+
+.car__charact {
+    margin-bottom: 20px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #010C13;
+}
+
+.car__charact:last-child {
+    margin-bottom: 0;
+}
+
+.car__logo {
+    margin-right: 40px;
+}
+
+.slider {
+    max-width: 876px;
+    width: 57.1%;
+}
+
+.car__image {
+    margin: 0 0 40px 31px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.promo {
+    margin-top: 80px;
+    padding: 248px 0 272px;
+    background: linear-gradient(102.95deg, #00A8CD 62.03%, #047DBF 110.97%);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.credit {
+    margin: 0 auto;
+    width: 77.2%;
+}
+
+.promo__title {
+    margin: 0;
+    text-align: start;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    text-align-last: start;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.promo__text {
+    margin: 60px 0;
+    max-width: 440px;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140%;
+
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.promo__button {
+    height: 80px;
+    width: 440px;
+    color: #FFFFFF;
+    background: rgba(202, 1, 0, 1);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Tactic Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.promo__image {
+    object-fit: contain;
+    position: absolute;
+    bottom: 64px;
+    left: 111px;
+}
+
+@media screen and (max-width: 1280px) {
+    .cards__container {
+        grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        padding: 9px 0 15px;
+    }
+
+    .header__logo {
+        width: 111px;
+        height: 30px;
+    }
+
+    .header__line {
+        height: 25px;
+    }
+
+    .header__title {
+        font-size: 10px;
+        display: flex;
+    }
+
+    .goods {
+        padding-top: 30px;
+    }
+
+    .goods__title {
+        margin: 0 auto 20px;
+        font-size: 20px;
+        text-align-last: center;
+    }
+
+    .content {
+        margin: 0 auto;
+        width: 87.5%;
+        display: block;
+    }
+
+    .brands {
+        margin: 0;
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    .brands__title {
+        margin: 0;
+        font-size: 0
+    }
+
+
+    .brands__container {
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 0 solid #9AA7AD;
+        padding-bottom: 0;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .brand {
+        padding: 3px 10px;
+        margin: 0 10px 0 0;
+        font-size: 8px;
+        background-color: white;
+        color: #9AA7AD;
+        border: 1px solid #9AA7AD;
+        border-radius: 4px;
+    }
+
+    .card {
+        margin: 0 auto 30px;
+    }
+
+    .cards__container {
+        margin-top: 40px;
+        display: block;
+        width: 100%;
+    }
+
+    .card__title {
+        margin: 16px 0 12px;
+        font-size: 16px;
+    }
+
+    .card__spec {
+        margin: 0 0 20px;
+        font-size: 14px;
+    }
+
+    .card__button {
+
+        height: 80px;
+        width: 100%;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+}
